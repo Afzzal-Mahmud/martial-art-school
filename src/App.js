@@ -6,6 +6,7 @@ import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home';
 import { Container } from "react-bootstrap";
 import PageNotFound from './Pages/404page/PageNotFound';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <PageNotFound></PageNotFound>
             </Route>
         </Switch>
+        <Footer></Footer>
       </Router>
     </div>
   );

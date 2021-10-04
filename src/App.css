@@ -7,3 +7,11 @@
     text-decoration: none;
     color: whitesmoke;
 }
+button{
+    background: #e43d4e;
+    color:whitesmoke;
+    border: 1px solid #e43d4e;
+    padding: 0.8rem 1.25rem;
+    font-size: 14px !important;
+    font-weight: bold;
+}
