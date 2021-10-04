@@ -2,7 +2,7 @@
     background: url(../../image/hero.jpg),radial-gradient(rgba(51, 51, 53, 0.733),#332a70);
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 89vh;
+    min-height: 75vh;
     background-blend-mode: multiply;
     position: relative;
 }
@@ -20,18 +20,14 @@
     margin-bottom: 3em;
 }
 /* hero-section hilighted services */
+/* cant use auto-fit because of requarments */
 .top-services{
-    display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 3em;
-   /* position: absolute;
-   bottom: -32px;
-   right: 8%; */
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); */
+    grid-template-columns: repeat(2,1fr);
 }
-.services-box{
-    width: 150px;
-    min-height: 150px;
-    background: #363636f1;
-    margin: 2em auto;
+
+.secondery-title{
+    padding: 1.5em 0;
+    text-align: center;
 }

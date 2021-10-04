@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home';
-import { Container } from "react-bootstrap";
 import PageNotFound from './Pages/404page/PageNotFound';
 import Footer from './Components/Footer/Footer';
 

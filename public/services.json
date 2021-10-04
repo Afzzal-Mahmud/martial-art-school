@@ -1,0 +1,38 @@
+[
+    {
+        "id": "A253",
+        "service": "Child martial Art",
+        "image": "https://image.flaticon.com/icons/png/512/835/835886.png",
+        "description": "We care your children and made master of martial art . We beleve the child is the most powerful humen being to be a master"
+    },
+    {
+        "id": "A353",
+        "service": "Update Training",
+        "image": "https://image.flaticon.com/icons/png/512/1239/1239856.png",
+        "description": "We have the world grate trainer from china and brazil . They are master of Martial Art and Gold madelist on jutchu."
+    },
+    {
+        "id": "A453",
+        "service": "Health Checkup",
+        "image": "https://image.flaticon.com/icons/png/512/1256/1256541.png",
+        "description": "We have free health chackup in weekends . Thats mean not to worry about your health . we alwase try to mantain your good health"
+    },
+    {
+        "id": "A653",
+        "service": "Commitment",
+        "image": "https://image.flaticon.com/icons/png/512/940/940921.png",
+        "description": "I know you are grate person you wants to be healthy . We are commited with you for your good health .So let's start your journy"
+    },
+    {
+        "id": "A553",
+        "service": "Separate Trainer",
+        "image": "https://image.flaticon.com/icons/png/512/1240/1240452.png",
+        "description": "If you are worry about mixing up all meal and femail . We provide separate trainer in your home .So what's in your mind .Join with us"
+    },
+    {
+        "id": "A553",
+        "service": "Diet Plan",
+        "image": "https://image.flaticon.com/icons/png/512/1256/1256477.png",
+        "description": "We also provide you a diet plan with the instruction of a madicine doctor for you . It's little bit costle but Don't worry first month free"
+    }
+]
