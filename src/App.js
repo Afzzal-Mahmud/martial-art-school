@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home';
+import About from './Pages/About/About';
 import PageNotFound from './Pages/404page/PageNotFound';
 import Footer from './Components/Footer/Footer';
 import Services from './Pages/Services/Services';
@@ -20,6 +20,9 @@ function App() {
             </Route>
             <Route path='/home'>
               <Home></Home>
+            </Route>
+            <Route path='/about'>
+              <About></About>
             </Route>
             <Route path='/services'>
               <Services></Services>
