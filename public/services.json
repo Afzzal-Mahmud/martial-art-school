@@ -28,17 +28,31 @@
         "description": "We also provide you a diet plan with the instruction of a madicine doctor for you . It's little bit costle but Don't worry first month free"
     },
     {
-        "id": "A653",
-        "price": "Commitment is a fun man",
-        "service": "Commitment",
-        "image": "https://image.flaticon.com/icons/png/512/940/940921.png",
-        "description": "I know you are grate person you wants to be healthy . We are commited with you for your good health .So let's start your journy"
+        "id": "A630",
+        "price": "No mony",
+        "service": "Update All Time",
+        "image": "https://image.flaticon.com/icons/png/512/1248/1248141.png",
+        "description": "If you are worry about mixing up all meal and femail . We provide separate trainer in your home .So what's in your mind .Join with us"
+    },
+    {
+        "id": "A673",
+        "price": "$ 130",
+        "service": "Femail Trainer",
+        "image": "https://image.flaticon.com/icons/png/512/1240/1240452.png",
+        "description": "We also provide you separate femaile trainer for your wishes . Some time it may help you with train long time with similar guys."
     },
     {
         "id": "A553",
         "price": "$ 200",
         "service": "Separate Trainer",
-        "image": "https://image.flaticon.com/icons/png/512/1240/1240452.png",
+        "image": "https://image.flaticon.com/icons/png/512/1177/1177610.png",
         "description": "If you are worry about mixing up all meal and femail . We provide separate trainer in your home .So what's in your mind .Join with us"
+    },
+    {
+        "id": "A653",
+        "price": "Commitment is a fun",
+        "service": "Commitment",
+        "image": "https://image.flaticon.com/icons/png/512/940/940921.png",
+        "description": "I know you are grate person you wants to be healthy . We are commited with you for your good health .So let's start your journy"
     }
 ]
