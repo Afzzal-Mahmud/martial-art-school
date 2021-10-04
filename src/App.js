@@ -7,6 +7,7 @@ import Home from './Pages/Home/Home';
 import PageNotFound from './Pages/404page/PageNotFound';
 import Footer from './Components/Footer/Footer';
 import Services from './Pages/Services/Services';
+import Trainer from './Pages/Trainer/Trainer';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
             </Route>
             <Route path='/services'>
               <Services></Services>
+            </Route>
+            <Route path='/instructor'>
+              <Trainer></Trainer>
             </Route>
             <Route path='*'>
               <PageNotFound></PageNotFound>

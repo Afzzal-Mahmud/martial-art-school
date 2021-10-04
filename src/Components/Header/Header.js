@@ -12,6 +12,7 @@ function Header() {
                         <Nav.Link > <NavLink className='nav-link' to='/home'>Home</NavLink> </Nav.Link>
                         <Nav.Link > <NavLink className='nav-link' to='/about'>About</NavLink> </Nav.Link>
                         <Nav.Link > <NavLink className='nav-link' to='/services'>Services</NavLink> </Nav.Link>
+                        <Nav.Link > <NavLink className='nav-link' to='/instructor'>Instructor</NavLink> </Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

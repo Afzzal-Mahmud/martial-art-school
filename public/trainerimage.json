@@ -1,0 +1,20 @@
+[
+    {
+        "id": "I353",
+        "instructor": "Shni Min Yo",
+        "type": "Kids Instructor",
+        "image": "https://html.modernwebtemplates.com/okorner/images/team/03.jpg"
+    },
+    {
+        "id": "I253",
+        "instructor": "Randal Schwartz",
+        "type": "Head Instructor",
+        "image": "https://html.modernwebtemplates.com/okorner/images/team/02.jpg"
+    },
+    {
+        "id": "I453",
+        "instructor": "Sowle Pow",
+        "type": "Boys Instructor",
+        "image": "https://html.modernwebtemplates.com/okorner/images/team/01.jpg"
+    }
+]

@@ -1,9 +1,20 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+import TrainerCard from "../../Components/TrainerCard/TrainerCard";
+import useTrainerImage from "../../Data/loadTrainerImage";
 
-function Trainer(props) {
-    const {image} = props.serviceObject;
+function Trainer() {
+    const [image,setImages] = useTrainerImage()
+
     return (
-        <img src={image} alt="" />
+        <Container className='grid'>
+           {
+               image.map(image => <TrainerCard
+               key={image.key}
+               imageObject={image}
+               ></TrainerCard>)
+           }
+        </Container>
     )
 }
 export default Trainer;
