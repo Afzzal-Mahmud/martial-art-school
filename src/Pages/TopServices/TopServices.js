@@ -15,7 +15,7 @@ function TopServices(props) {
                         {description}
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer className="text-muted">
+                <Card.Footer>
                <button>See Full Services</button>
                 </Card.Footer>
             </Card>

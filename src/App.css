@@ -3,6 +3,9 @@
     outline: none;
     box-sizing: border-box;
 }
+.primary-color{
+    color:#e43d4e
+}
 .nav-link{
     text-decoration: none;
     color: whitesmoke;
@@ -20,7 +23,7 @@ button{
     text-align: center;
 }
 .img-container img{
-    width: 100px;
+    width: 80px;
     max-width: 100%;
 }
 /* this style is use for the trainer pages */

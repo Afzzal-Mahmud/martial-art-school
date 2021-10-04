@@ -8,13 +8,13 @@ function TrainerCard(props) {
         <Card className='m-4 p-2'>
             <Card.Img variant="top" src={image} />
             <Card.Body style={{textAlign:"center"}}>
-                <h3>{instructor}</h3>
-                <Card.Title>{type}</Card.Title>
+                <h3 >{instructor}</h3>
+                <Card.Title className='primary-color'>{type}</Card.Title>
             </Card.Body>
             <Card.Footer className='d-flex justify-content-evenly'>
-                <Facebook className='text-primary'></Facebook>
-                <Twitch className='text-primary'></Twitch>
-                <Google className='text-primary'></Google>
+                <Facebook className='primary-color'></Facebook>
+                <Twitch className='primary-color'></Twitch>
+                <Google className='primary-color'></Google>
             </Card.Footer>
         </Card>
     )
