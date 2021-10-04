@@ -30,7 +30,7 @@ function Footer() {
         {/* Grid column */}
         <div className="col-auto mt-4 mb-md-0">
            {/* Submit button  */}
-          <button className="btn btn-primary mb-2">
+          <button style={{background:'#2f9be2'}} className="btn mb-2">
             Subscribe
           </button>
         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import './PageNotFound.css';
 
 function PageNotFound() {
@@ -16,8 +17,7 @@ function PageNotFound() {
               Sorry, the page you're looking for doesn't exist. If you think something is broken, report a problem.
            </p>
            <div className="buttons">
-              <a href="#">return home</a>
-              <a href="#">return home</a>
+              <NavLink to='/home' className='link'>Return Home</NavLink>
            </div>
         </div>
      </div>

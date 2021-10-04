@@ -1,13 +1,9 @@
     /* the main body of the page */
-    .error-page-main{
-    position: absolute;
-    top: 18%;
-    left: 15%;
-    right: 15%;
+  .error-page-main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(47, 155, 226);
+    background: #2f9be2;
     box-shadow: 0px 5px 10px #0000001f;
   }
   /* main contents of the page */
@@ -37,19 +33,17 @@
     display: inline-flex;
   }
   /* styling the buttons */
-  .error-page-content .buttons a{
-    display: inline-block;
+  .link{
     background-color: whitesmoke;
     font-weight: bold;
-    margin: 0 10px;
     text-decoration: none;
     border: 2px solid #69a6ce;
     color: #333333;
-    padding: 0.8em 1.25em;
-    border-radius: 4.5em;
+    padding: 0.8rem 1.25rem;
+    border-radius: 5px;
     transition: all 0.3s ease;
   }
-  .error-page-content .buttons a:hover{
+ .link:hover{
     background: #69a6ce;
     color: #fff;
   }
