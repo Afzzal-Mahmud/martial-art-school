@@ -6,6 +6,7 @@ import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home';
 import PageNotFound from './Pages/404page/PageNotFound';
 import Footer from './Components/Footer/Footer';
+import Services from './Pages/Services/Services';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
             </Route>
             <Route path='/home'>
               <Home></Home>
+            </Route>
+            <Route path='/services'>
+              <Services></Services>
             </Route>
             <Route path='*'>
               <PageNotFound></PageNotFound>
