@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-function Header() {
+function About() {
     return (
         <Container style={{height:"60vh"}}>
             <Row style={{marginTop:'2em'}}>
@@ -21,4 +21,4 @@ function Header() {
         </Container>
     )
 }
-export default Header;
+export default About;
